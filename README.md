@@ -38,3 +38,4 @@ flowchart LR
   D --> E[Deploy (Local or Azure)]
   E --> F[Smoke Test Container]
   F --> G[Success Notification]
+```mermaid
