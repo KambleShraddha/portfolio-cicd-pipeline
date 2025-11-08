@@ -35,6 +35,6 @@ flowchart LR
   A[Developer Push to GitHub] --> B[Jenkins CI Pipeline]
   B --> C[Build & Test Stage]
   C --> D[Docker Image Build]
-  D --> E[Deploy Stage (Local / Azure)]
+  D --> E[Deploy (Local or Azure)]
   E --> F[Smoke Test Container]
   F --> G[Success Notification]
