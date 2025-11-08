@@ -28,12 +28,13 @@ It simulates real-world DevOps practices for:
 
 ---
 
+
 ```mermaid
-flowchart LR
+graph TD
     A[Developer Push to GitHub] --> B[Jenkins CI Pipeline]
     B --> C[Build & Test Stage]
     C --> D[Docker Image Build]
-    D --> E[Deploy Stage (Local or Azure)]
+    D --> E[Deploy Stage - Local or Azure]
     E --> F[Smoke Test Container]
     F --> G[Success Notification]
 ```
