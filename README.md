@@ -28,6 +28,7 @@ It simulates real-world DevOps practices for:
 
 ---
 
+## ⚙️ Pipeline Workflow
 
 ```mermaid
 graph TD
